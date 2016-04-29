@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		637CCAC71CD0FDB40004F7FE /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637CCAC61CD0FDB40004F7FE /* CalculatorBrain.swift */; };
 		63CB57581CC9189D001810B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CB57571CC9189D001810B7 /* AppDelegate.swift */; };
 		63CB575A1CC9189D001810B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CB57591CC9189D001810B7 /* ViewController.swift */; };
 		63CB575D1CC9189D001810B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63CB575B1CC9189D001810B7 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		637CCAC61CD0FDB40004F7FE /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
+		637CCAC81CD33BE30004F7FE /* test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = test.playground; sourceTree = "<group>"; };
 		63CB57541CC9189C001810B7 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63CB57571CC9189D001810B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63CB57591CC9189D001810B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +58,8 @@
 			isa = PBXGroup;
 			children = (
 				63CB57591CC9189D001810B7 /* ViewController.swift */,
+				637CCAC61CD0FDB40004F7FE /* CalculatorBrain.swift */,
+				637CCAC81CD33BE30004F7FE /* test.playground */,
 				63CB575B1CC9189D001810B7 /* Main.storyboard */,
 				63CB57691CC91BEC001810B7 /* Supporting files */,
 			);
@@ -143,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				637CCAC71CD0FDB40004F7FE /* CalculatorBrain.swift in Sources */,
 				63CB575A1CC9189D001810B7 /* ViewController.swift in Sources */,
 				63CB57581CC9189D001810B7 /* AppDelegate.swift in Sources */,
 			);
@@ -294,6 +300,7 @@
 				63CB57681CC9189D001810B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
